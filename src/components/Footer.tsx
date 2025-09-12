@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { InstagramIcon, WhatsappIcon } from './icons/SocialIcons';
-import { PRODUCTS } from '../constants';
 import { JsStoreLogo } from './icons/Logo';
+import { getProducts } from '../data/data';
+import { Product } from '../types';
 
 const Footer: React.FC = () => {
+  const [products, setProducts] = useState<Product[]>([]);
+
+  useEffect(() => {
+    const updateProducts = () => setProducts(getProducts());
+    updateProducts();
+    window.addEventListener('storage', updateProducts);
+    return () => window.removeEventListener('storage', updateProducts);
+  }, []);
+
   return (
     <footer id="contato" className="bg-black text-gray-300 py-12 px-6">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
@@ -25,7 +35,7 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="font-bold text-xl mb-4 text-white uppercase">Pacote de Estampas</h3>
           <ul className="space-y-2">
-            {PRODUCTS.map(product => (
+            {products.map(product => (
                  <li key={product.id}>
                     <a 
                         href={product.downloadLink} 
@@ -48,6 +58,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="text-center text-xs text-gray-500 mt-12 border-t border-gray-800 pt-6">
         <p>© 2025 JS Store - Todos os direitos reservados.</p>
+        <a href="#/admin" className="mt-2 inline-block hover:text-brand-yellow transition-colors">Admin Login</a>
       </div>
     </footer>
   );

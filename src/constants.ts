@@ -21,22 +21,27 @@ export const PRODUCTS: Product[] = [
 
 export const FAQ_DATA: FaqItem[] = [
   {
+    id: 1,
     question: 'Qual o valor mínimo para pedido?',
     answer: 'O valor mínimo para pedido é de 12 peças.'
   },
   {
+    id: 2,
     question: 'Como funciona o envio do pedido?',
     answer: 'O envio é realizado apenas via Correios, com o frete por conta do cliente.'
   },
   {
+    id: 3,
     question: 'Qual o prazo de produção?',
     answer: 'Nosso prazo de produção é de 3 a 5 dias úteis. Caso ocorra qualquer imprevisto que altere este prazo, você será comunicado.'
   },
   {
+    id: 4,
     question: 'Quais formas de pagamento são aceitas?',
     answer: 'Aceitamos pagamento somente via PIX. O valor total do pedido deve ser pago no ato da confirmação.'
   },
-    {
+  {
+    id: 5,
     question: 'Posso enviar minha própria arte?',
     answer: 'Sim! Você pode nos enviar sua arte em alta resolução (vetor ou PNG 300dpi).'
   }

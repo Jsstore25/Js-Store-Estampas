@@ -8,6 +8,7 @@ export interface Product {
 }
 
 export interface FaqItem {
+  id: number;
   question: string;
   answer: string;
 }

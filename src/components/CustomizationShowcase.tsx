@@ -1,7 +1,17 @@
-import React from 'react';
-import { SHOWCASE_IMAGES } from '../constants';
+import React, { useState, useEffect } from 'react';
+import { getShowcaseImages } from '../data/data';
+import { ShowcaseImage } from '../types';
 
 const CustomizationShowcase: React.FC = () => {
+  const [showcaseImages, setShowcaseImages] = useState<ShowcaseImage[]>([]);
+
+  useEffect(() => {
+    const updateImages = () => setShowcaseImages(getShowcaseImages());
+    updateImages();
+    window.addEventListener('storage', updateImages);
+    return () => window.removeEventListener('storage', updateImages);
+  }, []);
+
   return (
     <section id="exemplos" className="bg-brand-dark py-16 sm:py-24">
       <div className="container mx-auto px-6 text-center">
@@ -26,13 +36,13 @@ const CustomizationShowcase: React.FC = () => {
         </h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto mb-12">
-          {SHOWCASE_IMAGES.map((image) => (
+          {showcaseImages.map((image) => (
             <div key={image.id} className="rounded-lg overflow-hidden shadow-lg border-2 border-gray-700 hover:border-brand-yellow transition-colors duration-300">
               <img 
                 referrerPolicy="no-referrer"
                 src={image.imageUrl} 
                 alt={image.alt} 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover aspect-square"
               />
             </div>
           ))}
