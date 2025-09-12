@@ -1,4 +1,4 @@
-import { Product, FaqItem, PricingCategory, ShowcaseImage } from './types';
+import { Product, FaqItem, PricingCategory } from './types';
 
 // Fix: Added id and imageUrl to each product to match the updated Product type.
 export const PRODUCTS: Product[] = [
@@ -48,9 +48,6 @@ export const FAQ_DATA: FaqItem[] = [
     answer: 'Sim! Você pode nos enviar sua arte em alta resolução (vetor ou PNG 300dpi).'
   }
 ];
-
-// Fix: Added SHOWCASE_IMAGES export to fix import error in data.ts
-export const SHOWCASE_IMAGES: ShowcaseImage[] = [];
 
 export const PRICING_DATA: PricingCategory[] = [
   {

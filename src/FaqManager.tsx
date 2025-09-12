@@ -1,6 +1,7 @@
 import React, { useState, FormEvent } from 'react';
-import { FaqItem } from '../../types';
-import { getFaqData, saveFaqData } from '../../data/data';
+// Fix: Corrected import paths to point to the correct files within the 'src' directory.
+import { FaqItem } from './types';
+import { getFaqData, saveFaqData } from './data/data';
 
 const emptyFaq: Omit<FaqItem, 'id'> = {
   question: '',
