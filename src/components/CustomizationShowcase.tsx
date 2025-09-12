@@ -14,7 +14,7 @@ const CustomizationShowcase: React.FC = () => {
         
         <div className="mb-12 bg-black p-4 md:p-8 rounded-xl shadow-2xl inline-block">
           <img 
-            src="https://fenix00atacado.com.br/wp-content/uploads/2024/05/modelo-personalizado-pecas.webp" 
+            src="https://fenix00atacado.com.br/wp-content/uploads/2024/05/modelo-personalizado-pecas-2.jpg" 
             alt="Exemplo de posicionamento de logo em camiseta na frente e nas costas" 
             className="rounded-lg mx-auto max-w-full h-auto"
           />
