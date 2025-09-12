@@ -24,8 +24,8 @@ const CustomizationShowcase: React.FC = () => {
         
         <div className="mb-12 bg-black p-4 md:p-8 rounded-xl shadow-2xl inline-block">
           <img 
-            src="https://fenix00atacado.com.br/wp-content/uploads/2024/05/modelo-personalizado-pecas-2.jpg" 
-            alt="Exemplo de posicionamento de logo em camiseta na frente e nas costas" 
+            src="https://camisetasemgeral.com.br/wp-content/uploads/2022/02/MODELO-PEITO-PEQUENO-COSTAS-GRANDE-1-1.jpg" 
+            alt="Modelo de camiseta preta mostrando posicionamento e tamanhos de logo no peito e nas costas" 
             className="rounded-lg mx-auto max-w-full h-auto"
           />
         </div>
