@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
     <>
       <section 
         className="relative h-[60vh] md:h-[80vh] bg-cover bg-center flex items-center justify-center text-center"
-        style={{ backgroundImage: "url('https://fenix00atacado.com.br/wp-content/uploads/2024/05/banner-personalizados.png')" }}
+        style={{ backgroundImage: "url('https://fenix00atacado.com.br/wp-content/uploads/2024/05/banner-personalizados.webp')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 p-6 max-w-4xl mx-auto">
