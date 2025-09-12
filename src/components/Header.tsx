@@ -6,12 +6,13 @@ const Header: React.FC = () => {
   return (
     <header className="bg-brand-dark py-4 px-6 md:px-12 sticky top-0 z-50 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#" aria-label="JS Store Home">
+        <a href="#/" aria-label="JS Store Home">
           <JsStoreLogo className="h-10 w-auto" />
         </a>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-semibold tracking-wider">
-          <a href="#" className="hover:text-brand-yellow transition-colors">INÍCIO</a>
+          <a href="#/" className="hover:text-brand-yellow transition-colors">INÍCIO</a>
           <a href="#produtos" className="hover:text-brand-yellow transition-colors">PRODUTOS</a>
+          <a href="#exemplos" className="hover:text-brand-yellow transition-colors">EXEMPLOS</a>
           <a href="#faq" className="hover:text-brand-yellow transition-colors">DÚVIDAS</a>
           <a href="#contato" className="hover:text-brand-yellow transition-colors">CONTATO</a>
         </nav>

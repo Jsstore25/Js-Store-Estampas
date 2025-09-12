@@ -5,6 +5,7 @@ import HowItWorks from '../components/HowItWorks';
 import ProductSection from '../components/ProductSection';
 import FaqSection from '../components/FaqSection';
 import Footer from '../components/Footer';
+import CustomizationShowcase from '../components/CustomizationShowcase';
 
 const HomePage: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage: React.FC = () => {
         <Hero />
         <HowItWorks />
         <ProductSection />
+        <CustomizationShowcase />
         <FaqSection />
       </main>
       <Footer />
