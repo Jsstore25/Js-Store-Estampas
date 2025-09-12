@@ -8,8 +8,8 @@ const ProductSection: React.FC = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 uppercase">Nossos Produtos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 max-w-5xl mx-auto">
+          {/* Fix: Used product.id for the key, which is a more stable identifier. */}
           {PRODUCTS.map((product) => (
-            // FIX: Changed key from product.title to product.id for a stable and unique identifier.
             <ProductCard key={product.id} product={product} />
           ))}
         </div>

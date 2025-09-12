@@ -1,26 +1,25 @@
-export interface Product {
-  // FIX: Added id to uniquely identify products.
+// Fix: Added ShowcaseImage interface.
+export interface ShowcaseImage {
   id: number;
+  imageUrl: string;
+  alt: string;
+}
+
+export interface Product {
+  // Fix: Added id and imageUrl to support admin functionality and fix type errors.
+  id: number;
+  imageUrl: string;
   title: string;
   description: string;
-  // FIX: Added imageUrl for product images.
-  imageUrl: string;
   buttonText: string;
   downloadLink: string;
 }
 
 export interface FaqItem {
-  // FIX: Added id to uniquely identify FAQ items.
+  // Fix: Added id to support admin functionality and fix type errors.
   id: number;
   question: string;
   answer: string;
-}
-
-// FIX: Added ShowcaseImage interface for customization examples.
-export interface ShowcaseImage {
-  id: number;
-  imageUrl: string;
-  alt: string;
 }
 
 export interface PriceTier {

@@ -26,8 +26,7 @@ const Footer: React.FC = () => {
           <h3 className="font-bold text-xl mb-4 text-white uppercase">Pacote de Estampas</h3>
           <ul className="space-y-2">
             {PRODUCTS.map(product => (
-                 // FIX: Changed key from product.title to product.id for a stable and unique identifier.
-                 <li key={product.id}>
+                 <li key={product.title}>
                     <a 
                         href={product.downloadLink} 
                         target="_blank" 
