@@ -64,7 +64,7 @@ const ShowcaseManager: React.FC = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 bg-brand-dark p-4 rounded-lg">
           {images.map(image => (
             <div key={image.id} className="relative group bg-gray-800 rounded-md overflow-hidden">
-                <img referrerPolicy='no-referrer' src={image.imageUrl} alt={image.alt} className="w-full h-32 object-cover" />
+                <img src={image.imageUrl} alt={image.alt} className="w-full h-32 object-cover" />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-2">
                     <button onClick={() => openModal(image)} className="text-blue-400 hover:text-blue-300 font-semibold text-sm bg-black bg-opacity-50 p-1 rounded">Editar</button>
                     <button onClick={() => handleDelete(image.id)} className="text-red-500 hover:text-red-400 font-semibold text-sm bg-black bg-opacity-50 p-1 rounded">Excluir</button>

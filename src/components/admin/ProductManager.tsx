@@ -69,7 +69,7 @@ const ProductManager: React.FC = () => {
           {products.map(product => (
             <li key={product.id} className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-gray-800 p-3 rounded-md gap-4">
               <div className="flex items-center space-x-4">
-                <img referrerPolicy='no-referrer' src={product.imageUrl} alt={product.title} className="w-16 h-16 object-cover rounded-md flex-shrink-0" />
+                <img src={product.imageUrl} alt={product.title} className="w-16 h-16 object-cover rounded-md flex-shrink-0" />
                 <span className="font-semibold">{product.title}</span>
               </div>
               <div className="space-x-2 flex-shrink-0 self-end sm:self-center">

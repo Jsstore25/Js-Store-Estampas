@@ -8,7 +8,7 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="bg-brand-dark rounded-lg overflow-hidden shadow-lg flex flex-col border border-gray-700">
-        <img referrerPolicy="no-referrer" className="h-80 w-full object-cover" src={product.imageUrl} alt={product.title} />
+        <img className="h-80 w-full object-cover" src={product.imageUrl} alt={product.title} />
         <div className="p-6 flex flex-col flex-grow text-center items-center">
             <h3 className="text-2xl font-bold text-brand-yellow mb-3 uppercase">{product.title}</h3>
             <p className="text-gray-300 mb-6 flex-grow">{product.description}</p>
