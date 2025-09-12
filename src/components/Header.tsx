@@ -12,7 +12,6 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex items-center space-x-6 text-sm font-semibold tracking-wider">
           <a href="#" className="hover:text-brand-yellow transition-colors">INÍCIO</a>
           <a href="#produtos" className="hover:text-brand-yellow transition-colors">PRODUTOS</a>
-          <a href="#exemplos" className="hover:text-brand-yellow transition-colors">EXEMPLOS</a>
           <a href="#faq" className="hover:text-brand-yellow transition-colors">DÚVIDAS</a>
           <a href="#contato" className="hover:text-brand-yellow transition-colors">CONTATO</a>
         </nav>
