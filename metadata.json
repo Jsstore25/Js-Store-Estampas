@@ -1,0 +1,5 @@
+{
+  "name": "Custom Apparel Clone",
+  "description": "A web application to showcase custom apparel options like T-shirts and oversized shirts, inspired by Fenix00 Atacado's personalized section. Users can see product details, understand the customization process, and download design packs.",
+  "requestFramePermissions": []
+}
