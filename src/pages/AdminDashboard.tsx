@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { JsStoreLogo } from '../components/icons/Logo';
 import ProductManager from '../components/admin/ProductManager';
 import FaqManager from '../FaqManager';
-import ShowcaseManager from '../components/admin/ShowcaseManager';
 
-type AdminTab = 'products' | 'faq' | 'showcase';
+type AdminTab = 'products' | 'faq';
 
 const AdminDashboard: React.FC = () => {
   const [activeTab, setActiveTab] = useState<AdminTab>('products');
@@ -20,8 +19,6 @@ const AdminDashboard: React.FC = () => {
         return <ProductManager />;
       case 'faq':
         return <FaqManager />;
-      case 'showcase':
-        return <ShowcaseManager />;
       default:
         return <ProductManager />;
     }
@@ -58,7 +55,6 @@ const AdminDashboard: React.FC = () => {
           <div className="flex flex-wrap gap-2 border-b border-gray-700 pb-4 mb-6">
              <TabButton tab="products" label="Gerenciar Produtos" />
              <TabButton tab="faq" label="Gerenciar Dúvidas" />
-             <TabButton tab="showcase" label="Gerenciar Exemplos" />
           </div>
           <div>
             {renderContent()}
