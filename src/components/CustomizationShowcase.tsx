@@ -15,24 +15,9 @@ const CustomizationShowcase: React.FC = () => {
   return (
     <section id="exemplos" className="bg-brand-dark py-16 sm:py-24">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 uppercase text-white">
-          Dê Vida à Sua Marca
-        </h2>
-        <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">
-          Veja como sua marca pode se destacar. Oferecemos personalização detalhada para garantir que seu produto final seja exatamente como você imaginou.
-        </p>
-        
-        <div className="mb-12 bg-black p-4 md:p-8 rounded-xl shadow-2xl inline-block">
-          <img 
-            src="https://camisetasemgeral.com.br/wp-content/uploads/2022/02/MODELO-PEITO-PEQUENO-COSTAS-GRANDE-1-1.jpg" 
-            alt="Modelo de camiseta preta mostrando posicionamento e tamanhos de logo no peito e nas costas" 
-            className="rounded-lg mx-auto max-w-full h-auto"
-          />
-        </div>
-
-        <h3 className="text-2xl md:text-3xl font-bold mb-10 uppercase text-brand-yellow">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 uppercase text-brand-yellow">
           Exemplos de Nossos Clientes
-        </h3>
+        </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto mb-12">
           {showcaseImages.map((image) => (
