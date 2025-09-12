@@ -7,7 +7,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
-    <div className="bg-brand-gray rounded-lg overflow-hidden shadow-lg flex flex-col items-center text-center p-6 border border-gray-700">
+    <div className="bg-brand-dark rounded-lg overflow-hidden shadow-lg flex flex-col items-center text-center p-6 border border-gray-700">
       <h3 className="text-2xl font-bold text-brand-yellow mb-3 uppercase">{product.title}</h3>
       <p className="text-gray-300 mb-6 flex-grow">{product.description}</p>
       <a

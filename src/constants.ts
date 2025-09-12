@@ -1,4 +1,4 @@
-import { Product, FaqItem, PricingCategory } from './types';
+import { Product, FaqItem, PricingCategory, ShowcaseImage } from './types';
 
 export const PRODUCTS: Product[] = [
   {
@@ -82,5 +82,18 @@ export const PRICING_DATA: PricingCategory[] = [
       { quantity: 50, price: 'R$ 49 (Cada)' },
       { quantity: 100, price: 'R$ 48 (Cada)' },
     ],
+  },
+];
+
+export const SHOWCASE_IMAGES: ShowcaseImage[] = [
+  {
+    id: 1,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-1.png',
+    alt: 'Camiseta personalizada com estampa de estátua usando óculos de realidade virtual',
+  },
+  {
+    id: 2,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-2.png',
+    alt: 'Camiseta personalizada com estampa em homenagem a Kobe Bryant',
   },
 ];

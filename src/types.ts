@@ -21,3 +21,9 @@ export interface PricingCategory {
   title: string;
   tiers: PriceTier[];
 }
+
+export interface ShowcaseImage {
+  id: number;
+  imageUrl: string;
+  alt: string;
+}
