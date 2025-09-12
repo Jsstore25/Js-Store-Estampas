@@ -14,6 +14,7 @@ const CustomizationShowcase: React.FC = () => {
         
         <div className="mb-12 bg-black p-4 md:p-8 rounded-xl shadow-2xl inline-block">
           <img 
+            referrerPolicy="no-referrer"
             src="https://fenix00atacado.com.br/wp-content/uploads/2024/05/modelo-personalizado-pecas-2.jpg" 
             alt="Exemplo de posicionamento de logo em camiseta na frente e nas costas" 
             className="rounded-lg mx-auto max-w-full h-auto"
@@ -24,10 +25,11 @@ const CustomizationShowcase: React.FC = () => {
           Exemplos de Nossos Clientes
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto mb-12">
           {SHOWCASE_IMAGES.map((image) => (
             <div key={image.id} className="rounded-lg overflow-hidden shadow-lg border-2 border-gray-700 hover:border-brand-yellow transition-colors duration-300">
               <img 
+                referrerPolicy="no-referrer"
                 src={image.imageUrl} 
                 alt={image.alt} 
                 className="w-full h-full object-cover"

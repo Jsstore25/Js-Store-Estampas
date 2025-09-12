@@ -96,4 +96,54 @@ export const SHOWCASE_IMAGES: ShowcaseImage[] = [
     imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-2.jpg',
     alt: 'Camiseta personalizada com estampa em homenagem a Kobe Bryant',
   },
+  {
+    id: 3,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-3.jpg',
+    alt: 'Camiseta personalizada com estampa da estátua de Hermes',
+  },
+  {
+    id: 4,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-4.jpg',
+    alt: 'Camiseta personalizada com estampa de estátua e a frase "Just one left"',
+  },
+  {
+    id: 5,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-5.jpg',
+    alt: 'Camiseta personalizada com estampa religiosa "Jesus Saves"',
+  },
+  {
+    id: 6,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-6.jpg',
+    alt: 'Camiseta personalizada com estampa religiosa "Cristo Vive em Mim"',
+  },
+  {
+    id: 7,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-7.jpg',
+    alt: 'Camiseta personalizada com estampa religiosa de Jesus e a frase "Foi por você"',
+  },
+  {
+    id: 8,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-8.jpg',
+    alt: 'Camiseta personalizada com estampa religiosa de mãos orando e a frase "Posso todas as coisas em Cristo que me fortalece"',
+  },
+  {
+    id: 9,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-9.jpg',
+    alt: 'Camiseta personalizada com estampa de símbolos religiosos',
+  },
+  {
+    id: 10,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-10.jpg',
+    alt: 'Camiseta personalizada com estampa de anjo e a palavra "Blessed"',
+  },
+  {
+    id: 11,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-11.jpg',
+    alt: 'Camiseta personalizada com estampa do rosto de Kobe Bryant',
+  },
+  {
+    id: 12,
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-12.jpg',
+    alt: 'Camiseta personalizada com estampa "Visions of the future"',
+  },
 ];
