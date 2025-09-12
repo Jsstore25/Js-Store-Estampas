@@ -5,7 +5,7 @@ export const PRODUCTS: Product[] = [
     id: 1,
     title: 'Oversized',
     description: 'Nossa camiseta oversized é feita com malha de algodão penteado fio 30.1, garantindo conforto e durabilidade. Possui gola canelada 2×1 de 3cm e reforço de ombro a ombro. O caimento é amplo e estiloso, perfeito para um visual moderno. Disponível nos tamanhos P, M, G, GG e XGG.',
-    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/modelo-oversized-fenix.webp',
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/modelo-oversized-fenix.png',
     buttonText: 'BAIXAR PACOTE DE ESTAMPAS',
     downloadLink: 'https://drive.google.com/drive/folders/1I4g7KimfVIp9sJUGgLGvGxb8XJmj2ebR'
   },
@@ -13,7 +13,7 @@ export const PRODUCTS: Product[] = [
     id: 2,
     title: 'T-shirts',
     description: 'Nossa T-shirt é confeccionada em malha de algodão penteado fio 30.1, proporcionando um toque macio e excelente caimento. Possui gola canelada 2×1 de 2cm e reforço de ombro a ombro. É uma peça versátil e confortável para o dia a dia. Disponível nos tamanhos P, M, G, GG e XGG.',
-    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/modelo-t-shirt-fenix.webp',
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/modelo-t-shirt-fenix.png',
     buttonText: 'BAIXAR PACOTE DE ESTAMPAS',
     downloadLink: 'https://drive.google.com/drive/folders/16mlWjH6Z-fxR7ntbBoCzAEVvLhiBu_PV'
   }
@@ -88,12 +88,12 @@ export const PRICING_DATA: PricingCategory[] = [
 export const SHOWCASE_IMAGES: ShowcaseImage[] = [
   {
     id: 1,
-    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-1.webp',
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-1.jpg',
     alt: 'Camiseta personalizada com estampa de estátua usando óculos de realidade virtual',
   },
   {
     id: 2,
-    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-2.webp',
+    imageUrl: 'https://fenix00atacado.com.br/wp-content/uploads/2024/05/arte-catalogo-2.jpg',
     alt: 'Camiseta personalizada com estampa em homenagem a Kobe Bryant',
   },
 ];
