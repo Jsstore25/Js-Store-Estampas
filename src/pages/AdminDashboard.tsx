@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { JsStoreLogo } from '../components/icons/Logo';
 import ProductManager from '../components/admin/ProductManager';
-import FaqManager from '../components/admin/FaqManager';
+import FaqManager from '../../FaqManager';
 
 type AdminTab = 'products' | 'faq';
 

@@ -1,6 +1,6 @@
 // Fix: Corrected import paths to use types and constants from within the src directory.
-import { Product, FaqItem, ShowcaseImage } from './types';
-import { PRODUCTS as defaultProducts, FAQ_DATA as defaultFaq } from './constants';
+import { Product, FaqItem, ShowcaseImage } from '../types';
+import { PRODUCTS as defaultProducts, FAQ_DATA as defaultFaq } from '../constants';
 
 // Fix: Added default showcase images data.
 const defaultShowcaseImages: ShowcaseImage[] = [
