@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             <a href="https://www.instagram.com/jsstore25_" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-brand-yellow transition-colors">
               <InstagramIcon />
             </a>
-            <a href="https://api.whatsapp.com/send/?phone=5531991687046&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-brand-yellow transition-colors">
+            <a href="https://api.whatsapp.com/send?phone=5531991687046&text=Oi%2C%20tudo%20bem%3F%20Quero%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-brand-yellow transition-colors">
               <WhatsappIcon />
             </a>
           </div>
